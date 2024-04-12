@@ -1,0 +1,57 @@
+ERROR:__main__:Uncaught exception
+Traceback (most recent call last):
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 320, in <module>
+    bot.polling()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 92, in run
+    task(*args, **kwargs)
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 141, in handle_callback_query
+    bot.send_document(call.message.chat.id, document=open(LinkVideo, 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'https://www.youtube.com/watch?si=j88qE9HpftDIjsau&v=SyMQpGFc8pY&feature=youtu.be'
+ERROR:__main__:Uncaught exception
+Traceback (most recent call last):
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 321, in <module>
+    bot.polling()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 92, in run
+    task(*args, **kwargs)
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 187, in handle_callback_query
+    bot.send_photo(call.message.chat.id, photo=open(f'photo{i}', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'photo1'
+ERROR:__main__:Uncaught exception
+Traceback (most recent call last):
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 321, in <module>
+    bot.polling()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/util.py", line 92, in run
+    task(*args, **kwargs)
+  File "/home/mika2/.cache/pypoetry/virtualenvs/telegram-bot-gago-5ebyI9Gw-py3.10/lib/python3.10/site-packages/telebot/__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/mika2/Desktop/projects/telegram_bot_gago/telegram_bot_gago/main.py", line 187, in handle_callback_query
+    bot.send_photo(call.message.chat.id, photo=open(f'photo{i}', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'photo1'
